@@ -1,0 +1,11 @@
+
+body {
+    background: white url("images/backgroundimage.png") no-repeat;
+}
+
+li a {
+    color: #075e16;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
