@@ -1,6 +1,9 @@
 
 body {
     background: white url("images/backgroundimage.png") no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: #075e16;
 }
 
 li a {
