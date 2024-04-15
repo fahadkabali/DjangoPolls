@@ -1,13 +1,14 @@
 
 body {
-    background: white url("images/backgroundimage.png") no-repeat;
+    background: white url("images/backgroundimage.png");
+    background-repeat: repeat;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
-    color: #075e16;
+    color: #1822b1;
 }
 
 li a {
-    color: #075e16;
+    color: #0c0b52;
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
