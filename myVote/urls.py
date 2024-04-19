@@ -19,8 +19,11 @@ from django.urls import path
 from django.urls import include, path
 from django.conf import settings
 from django.conf.urls.static import static
+from poll import views as poll_views
+
 
 urlpatterns = [
+    path('', poll_views.home, name='home'),
     path("poll", include("poll.urls")),
     path("polls/", include("polls.urls")),
     path('admin/', admin.site.urls),
