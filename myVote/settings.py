@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "poll",
     "widget_tweaks",
-    "qrcode",
+    "poll_qrcode",
 ]
 
 MIDDLEWARE = [

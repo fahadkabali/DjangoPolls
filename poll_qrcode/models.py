@@ -1,6 +1,6 @@
 from django.db import models
 import qrcode
-from io import BytesIO
+import io 
 from django.core.files import File
 from PIL import Image, ImageDraw
 
@@ -18,7 +18,7 @@ class Qrcode(models.Model):
         draw = ImageDraw.Draw(canvas)
         canvas.paste(qrcode_img)
         fname = f'qr_code-{self.name}.png'
-        buffer = BytesIO
+        buffer = io.BytesIO
         canvas.save(buffer, 'PNG')
         self.qrcode.save(fname, File(buffer), save=False)
         canvas.close()
